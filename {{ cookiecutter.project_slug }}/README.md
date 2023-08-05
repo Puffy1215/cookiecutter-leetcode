@@ -1,0 +1,1 @@
+# Solution for [{{ cookiecutter.problem_name }}]({{ cookiecutter.problem_url }})
