@@ -1,0 +1,9 @@
+{
+    "problem_number": "0000",
+    "problem_name": "Generic Problem",
+    "problem_slug": "{{ cookiecutter.problem_name.lower().replace(' ', '-') }}",
+    "problem_url": "https://leetcode.com/problems/{{ cookiecutter.problem_slug }}/description",
+    "project_name": "LeetCode {{ cookiecutter.problem_number }} {{ cookiecutter.problem_name }}",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "author": "Anonymous"
+}
