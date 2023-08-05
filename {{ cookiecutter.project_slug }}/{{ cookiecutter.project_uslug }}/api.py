@@ -5,4 +5,6 @@ def _check_preconditions(...) -> bool:
 
 
 def {{ cookiecutter.problem_api }}(...) -> ...:
+    assert _check_preconditions(...)
+
     pass
