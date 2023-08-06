@@ -15,4 +15,4 @@ from {{ cookiecutter.project_slug }} import api
 def test_{{ cookiecutter.problem_api }}(result, ...) -> None
     """Tests solution for problem {{ cookiecutter.problem_name }}"""
 
-    pass
+    assert api.{{ cookiecutter.problem_api }}(...) == result
