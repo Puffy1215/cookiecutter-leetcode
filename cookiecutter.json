@@ -5,7 +5,7 @@
     "problem_api": "{{ cookiecutter.problem_name.lower().replace(' ', '_') }}",
     "problem_url": "https://leetcode.com/problems/{{ cookiecutter.problem_slug }}/description",
     "project_name": "LeetCode {{ cookiecutter.problem_number }} {{ cookiecutter.problem_name }}",
-    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
-    "project_uslug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+    "project_uslug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "author": "Anonymous"
 }
