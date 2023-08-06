@@ -6,7 +6,7 @@ from {{ cookiecutter.project_slug }} import api
 
 
 @pytest.mark.parametrize(
-    [result, ...],
+    ["result", ...],
     (
         [..., ...],
         [..., ...],
