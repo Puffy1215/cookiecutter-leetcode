@@ -2,7 +2,7 @@
 
 import pytest
 
-from {{ cookiecutter.project_slug }} import api
+from {{ cookiecutter.project_uslug }} import api
 
 
 @pytest.mark.parametrize(
